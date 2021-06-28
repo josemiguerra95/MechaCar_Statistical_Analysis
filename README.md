@@ -1,9 +1,7 @@
 # MechaCar_Statistical_Analysis
 
-The goal of the project is to analyze metrics that can affect the manufacturing a new car prototype and compare vehicle performance across different manufacturer lots. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD capabilities, MPG, and PSI.
-
 ## Project Overview 
-The goal of the project is to analyze the metrics that can affect the manufacture of a new prototype car and to compare the vehicle's performance across different manufacturer batches. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD, MPG, and PSI ratings.
+The objective of the project is to analyze the metrics that can affect the manufacture of a new prototype car and to compare the performance of the vehicle in different batches of manufacturers. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD, MPG, and PSI ratings.
 
 ## Linear Regression to Predict MPG
 
