@@ -7,6 +7,8 @@ The goal of the project is to analyze the metrics that can affect the manufactur
 
 ## Linear Regression to Predict MPG
 
+![Results](Resources/Linear_regression.PNG)
+
 -The variance of a non-random variable is usually 0. Given this fact, it can be said that the coefficients of intersection, vehicle length, and ground clearance provide a non-random amount of variance to mpg values.
 
 -With a significance level of 0.05, we can reject the null hypothesis due to the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypothesis, we are affirming that the alternative (β1 ≠ 0) is true. Therefore, prove that the slope is not 0.
