@@ -17,6 +17,8 @@ The goal of the project is to analyze the metrics that can affect the manufactur
 
 ## Summary Statistics on Suspension Coils
 
+![Results](Resources/lot_summary.PNG)
+
 The variation for the entire data set shows that the current manufacturing data meets the 100 pounds per square inch variation limitation. However, when divided into three lots, the third lot indicates much greater variance. Because batches are chosen at random, there is a chance that one third of the batch will not meet the necessary requirement for suspension coils.
 
 ## T-Test on Suspension Coils
