@@ -11,7 +11,6 @@ The objective of the project is to analyze the metrics that can affect the manuf
 
 -With a significance level of 0.05, we can reject the null hypothesis due to the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypothesis, we are affirming that the alternative (β1 ≠ 0) is true. Therefore, prove that the slope is not 0.
 
--Multiple increases in R-squared as more variables are passed through the regression. However, the adjusted R-squared controls this increase and adds penalties for the number of predictors in the model, making it a more accurate predictor of how effective the linear model is. An adjusted R-squared of 0.6825 concludes that this linear model predicts the miles per gallon of MechaCar prototypes relatively well.
 
 ## Summary Statistics on Suspension Coils
 
