@@ -1,42 +1,29 @@
 # MechaCar_Statistical_Analysis
 
-Project Overview
 The goal of the project is to analyze metrics that can affect the manufacturing a new car prototype and compare vehicle performance across different manufacturer lots. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD capabilities, MPG, and PSI.
+
+## Project Overview 
+The goal of the project is to analyze the metrics that can affect the manufacture of a new prototype car and to compare the vehicle's performance across different manufacturer batches. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD, MPG, and PSI ratings.
 
 ## Linear Regression to Predict MPG
 
-3 Key Takeaways:
+-The variance of a non-random variable is usually 0. Given this fact, it can be said that the coefficients of intersection, vehicle length, and ground clearance provide a non-random amount of variance to mpg values.
 
-Variance of a non-random variable is usually 0. Given this fact, the intercept, vehicle_length, and ground_clearance coeeficients can be said to provide a non-random amount of variance to the mpg values.
-At a significance level of 0.05, we are able to reject the null hypothesis because of the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypthesis, we're stating that alternative (β1 ≠ 0) is true. Thus, proving that the slope is not 0.
-Multiple R-squared increases as more variables are passed through the regression. However, adjusted R-squared controls against this increase, and adds penalties for the number of predictors in the model, thus making it a more accurate predictor of how effective the linear model is. An adjusted R-square of 0.6825 concludes that this linear model predicts the mpg of MechaCar prototypes relatively well.
+-With a significance level of 0.05, we can reject the null hypothesis due to the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypothesis, we are affirming that the alternative (β1 ≠ 0) is true. Therefore, prove that the slope is not 0.
+
+-Multiple increases in R-squared as more variables are passed through the regression. However, the adjusted R-squared controls this increase and adds penalties for the number of predictors in the model, making it a more accurate predictor of how effective the linear model is. An adjusted R-squared of 0.6825 concludes that this linear model predicts the miles per gallon of MechaCar prototypes relatively well.
 
 ## Summary Statistics on Suspension Coils
- 
-The overall variance for the entire dataset indicates that the current manufacturing data meets the 100 pounds per square inch variance limitation. However, when separated into three lots, the third lot demonstrates a much higher variance. Because the lots are chosen randomly, there is a possiblity that a third of the lot does not meet the necessary suspension coils requirement.
 
-T-Test on Suspension Coils
-T-Test on Entire Lot
+The variation for the entire data set shows that the current manufacturing data meets the 100 pounds per square inch variation limitation. However, when divided into three lots, the third lot indicates much greater variance. Because batches are chosen at random, there is a chance that one third of the batch will not meet the necessary requirement for suspension coils.
 
-
-At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 0.06. Therefore, we cannot reject the fact that the sample mean may be equivalent to the true population mean. Another feature to note is the narrow confidence interval. Although a narrower confidence interval implies that there is a smaller chance of obtaining an observation within that interval, it provides greater accuracy than a wider interval.
-T-Test on Three Smaller Lots
-
+## T-Test on Suspension Coils
 
 ### Lot 1 
-At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 1. An interesting correlation between p-value and confidence intervals is that as the p-values get larger, the confidence interval becomes smaller, implying more precision in predicting the true population mean.
+With a significance level of 0.05, we don't reject the null hypothesis since the p-value is equal to 1. An interesting correlation between the p-value and the confidence intervals is that as the p-values get larger, the interval of Confidence becomes smaller, which implies more precision in forecasting the true population mean.
 
 ### Lot 2
-At a significance level of 0.05, we fail to reject the null hypthesis again since the p-value equals 0.6072. The second lot also has a relatively small confidence interval.
+With a significance level of 0.05, we do not reject the null hypothesis again since the p-value equals 0.6. The second batch also has a relatively small confidence interval.
 
 ### Lot 3
-At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168. The mean of this sample is also significantly smaller in comparison to the previous two lots. More importantly, unlike the previous two lots, the confidence interval for the third lot does not include the predicted population mean.
-
-Study Design: MechaCar vs. Competition
-Another statistical study that can be performed to determine MechaCar's standing against its competition is a linear regression on city and highway fuel efficiency. Gasoline is expensive nowadays, and it is an important feature that many consumers look at when purchasing a new car. The metrics that can be included in this analysis are:
-
-City and highway fuel efficiency: dependent variable
-Horse power: independent variable
-Vehicle weight: independent variable
-AWD capabilities: independent variable
-MPG: independent variable In addition to the MPG, AWD, and vehicle weight data that we already have, we would have to collect fuel efficiency and horse power data for the sample data set at hand.
+With a significance level of 0.05, we reject the null hypothesis since the p-value is equal to 0.041. The mean of this sample is also significantly lower compared to the two previous batches. More importantly, unlike the previous two batches, the confidence interval for the third batch does not include the predicted population mean.
